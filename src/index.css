@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Rubik:ital,wght@0,300;1,300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+}
+
+.image {
+    background-image: url('https://wallpapercave.com/wp/wp3879691.jpg');
+    background-position: center;
+}
+
+.mainLog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login {
+    margin-bottom: 40px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black; */
+    background-color: antiquewhite;
+}
+
+.form {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+}
+
+.Loginbutton {
+    margin-top: 30px;
+}
+
+.ShowCase {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 4px;
+    color: #7e7e7e;
+}
+
+.ShowCase li {
+    margin: 0 12px;
+}
+
+.notSelected {
+    padding: 3px;
+    background-color: white;
+    color: black;
+}
+
+.selected {
+    padding: 3px;
+    background-color: green;
+    color: white;
+}
+
+.showSeats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(7, 65px);
+    grid-template-rows: repeat(11, 40px);
+}
+
+.seat {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    /* color: black */
+}
+
+.buttonBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.BackButton {
+    padding: 3px;
+    margin: 10px;
+    text-decoration: underline;
+    color: white
+}
+
+.seatdesc {
+    color: white
+}
